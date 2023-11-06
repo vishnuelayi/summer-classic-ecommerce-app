@@ -1,2 +1,2 @@
-# ecommerce-app
-Git repo for e-commerce site with React, Tailwind CSS, Node.js, MongoDB, and Material UI. Features seamless UI, React state management, Tailwind design, Material UI components, Node.js, and MongoDB for a robust backend.
+
+A Git repository for an e-commerce website built using React, Tailwind CSS, Node.js, MongoDB, and Material UI. The website provides a seamless browsing and checkout experience for customers. It features a dynamic and responsive user interface, utilizing React for state management and efficient data handling. Tailwind CSS provides a stylish design, while Material UI offers a rich set of pre-built components. The website is powered by Node.js and MongoDB, providing a scalable and robust backend. 
