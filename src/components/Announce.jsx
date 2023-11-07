@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function Announce() {
   const [announceType, setAnnounceType] = useState(
-    "bg-[#8a4af3] font-bold text-white flex item-center justify-center"
+    "bg-[#64CCC5] font-bold text-white flex item-center justify-center"
   );
 
   const handleClose = () => {
