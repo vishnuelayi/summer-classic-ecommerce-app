@@ -1,10 +1,11 @@
-import Home from "./pages/Home";
+import CategoryPage from "./components/CategoryPage";
+
 
 
 
 
 export default function App() {
   return (
-    <Home />
+    <CategoryPage />
   )
 }
