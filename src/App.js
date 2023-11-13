@@ -1,5 +1,6 @@
-import ProductPage from "./pages/ProductPage";
+import Cart from "./pages/Cart";
+
 
 export default function App() {
-  return <ProductPage />;
+  return <Cart/>;
 }
