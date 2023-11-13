@@ -1,9 +1,9 @@
 import React from "react";
-import Announce from "./Announce";
-import Navbar from "./Navbar";
-import Products from "./Products";
-import NewsLetter from "./NewsLetter";
-import Footer from "./Footer";
+import Announce from "../components/Announce";
+import Navbar from "../components/Navbar";
+import Products from "../components/Products";
+import NewsLetter from "../components/NewsLetter";
+import Footer from "../components/Footer";
 
 const CategoryPage = () => {
   return (

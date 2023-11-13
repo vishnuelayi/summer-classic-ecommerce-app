@@ -1,11 +1,5 @@
-import CategoryPage from "./components/CategoryPage";
-
-
-
-
+import ProductPage from "./pages/ProductPage";
 
 export default function App() {
-  return (
-    <CategoryPage />
-  )
+  return <ProductPage />;
 }
