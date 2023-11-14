@@ -1,6 +1,7 @@
-import Cart from "./pages/Cart";
+
+import Login from "./pages/Login";
 
 
 export default function App() {
-  return <Cart/>;
+  return <Login/>;
 }
