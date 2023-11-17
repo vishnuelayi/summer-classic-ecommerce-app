@@ -12,21 +12,21 @@ function Cart() {
       <Navbar />
       <div className=" p-5">
         <div className="flex justify-center text-5xl">Cart</div>
-        <div className="flex items-center justify-between mt-4">
+        <div className="flex items-center justify-between mt-4 mobile:flex-col">
           <button className="btn bg-white text-[#64CCC5] border-[#64CCC5] hover:bg-white border-2">
             Countinue Shopping
           </button>
 
-          <div className="flex underline text-lg hover:cursor-pointer">
+          <div className="flex underline text-lg hover:cursor-pointer mobile:mt-3 mobile:mb-3">
             <p>Items in your Cart: 3</p>
             <p className=" ml-5">Whishlist Item: 0</p>
           </div>
           <button className="btn ">Checkout</button>
         </div>
 
-        <div className="flex mt-7">
+        <div className="flex mt-7 mobile:flex-col">
           <div className="flex flex-col flex-1">
-            <div className="flex w-[100%] h-auto items-center">
+            <div className="flex w-[100%] h-auto items-center mobile:flex-col">
               <div className="product flex self-start pl-5">
                 <img
                   className="w-[7.2rem] h-[80%] rounded-lg shadow-lg hover:scale-[1.1] ease-in duration-300"
@@ -54,7 +54,7 @@ v=1642719824"
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-center flex-auto">
+              <div className="flex flex-col justify-center items-center flex-auto mobile:mt-3">
                 <Counter />
                 <p className="flex items-center justify-center text-4xl ml-3">
                   <b>$70</b>
@@ -64,7 +64,7 @@ v=1642719824"
             <hr className=" mt-7 mb-7" />
 
             {/* 2nd Product */}
-            <div className="flex w-[100%] h-auto items-center">
+            <div className="flex w-[100%] h-auto items-center mobile:flex-col">
               <div className="product flex self-start pl-5">
                 <img
                   className="w-[7.2rem] h-[80%] rounded-lg shadow-lg hover:scale-[1.1] ease-in duration-300"
@@ -90,7 +90,7 @@ v=1642719824"
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-center flex-auto">
+              <div className="flex flex-col justify-center items-center flex-auto mobile:mt-3">
                 <Counter />
                 <p className="flex items-center justify-center text-4xl ml-3">
                   <b>$70</b>

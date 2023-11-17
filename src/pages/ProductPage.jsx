@@ -10,7 +10,7 @@ function ProductPage() {
     <div>
       <Announce />
       <Navbar />
-      <div className="flex justify-center">
+      <div className="flex justify-center mobile:flex-col mobile:mt-3">
         <div className="flex flex-1 items-center justify-center">
           <img
             src="https://cdn.shopify.com/s/files/1/0240/7285/products/
@@ -19,9 +19,9 @@ KNITPULLOVER-PISTACHIO-2_360x.jpg?v=1642545216"
             className="w-[80%] h-[80%] rounded-lg shadow-lg hover:scale-[1.1] ease-in duration-300"
           />
         </div>
-        <div className="flex-[1.3] flex items-start justify-items-start flex-col mt-10">
-          <h1 className="title text-[40px]">Creamy Hoody Original</h1>
-          <p className="pr-[4rem] text-justify mt-4">
+        <div className="flex-[1.3] flex items-start justify-items-start flex-col mt-10 mobile:items-center">
+          <h1 className="title text-[40px] mobile:text-[30px]">Creamy Hoody Original</h1>
+          <p className="pr-[4rem] text-justify mt-4 mobile:pr-0">
             Wrap yourself in comfort with our Classic Cream Hoodie. Crafted from
             ultra-soft, premium cotton blend fabric, this hoodie is the epitome
             of laid-back luxury. Whether you’re strolling through the park or

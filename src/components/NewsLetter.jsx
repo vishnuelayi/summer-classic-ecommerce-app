@@ -8,11 +8,11 @@ function NewsLetter() {
     <h1 className='text-[50px] font-bold'> 
       NEWSLETTER
     </h1>
-    <h2 className='text[20px] mt-2'>
+    <h2 className='text[20px] mt-2 mobile:p-3 mobile:text-center'>
       Always in touch with us, for your favourite products
     </h2>
 
-    <div className='flex mt-[3rem] items-center justify-between min-w-[30rem] min-h-[2rem] bg-white border-[#cccccc] rounded-[5px] overflow-hidden'>
+    <div className='flex mt-[3rem] items-center justify-between min-w-[30rem] min-h-[2rem] bg-white border-[#cccccc] rounded-[5px] overflow-hidden mobile:min-w-[23rem]'>
       <input
       type='email'
       placeholder='email'

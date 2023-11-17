@@ -13,7 +13,7 @@ const CategoryPage = () => {
       <div className=" flex-col flex p-5">
         <h1 className=" text-[30px]">Men's Cloth</h1>
         <div className=" flex items-center justify-between mt-3">
-            <div className="flex">
+            <div className="flex mobile:flex-col">
                 <p>Filter by</p>
                 <select className=" ml-3 border-silver border-2">
                     <option selected disabled>Size</option>
@@ -22,7 +22,7 @@ const CategoryPage = () => {
                     <option>Large</option>
                 </select>
 
-                <select className=" ml-3 border-silver border-2">
+                <select className=" ml-3 border-silver border-2 mobile:mt-3">
                     <option selected disabled>Color</option>
                     <option>Yellow</option>
                     <option>Red</option>
